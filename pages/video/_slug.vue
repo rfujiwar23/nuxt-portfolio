@@ -11,12 +11,12 @@
         </nav>
 
       <article>
-        <h1>{{ article.title }}</h1>
+        <h1 class="underline">{{ article.title }}</h1>
         <p>{{ article.description }}</p>
         
         <div class="video-player shadow-xl">
             <video-player :src="article.video"/>
-            <p>{{ article.bodyText }}</p>
+            <p class="text-red-800">{{ article.bodyText }}</p>
         </div>
 
         <!-- <img
@@ -28,7 +28,7 @@
         <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
         
         <nuxt-content :document="article" />
-        <!-- <author :author="article.author" /> -->
+        <author :author="article.author" />
       </article>
     </div>
   </div>

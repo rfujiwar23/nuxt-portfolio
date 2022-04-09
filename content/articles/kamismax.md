@@ -7,7 +7,7 @@ alt: my first blog post
 bodyText: Yes, this is my project.  Basically, you can check it out here. Edited using Adobe Premiere Pro, audio mixed at the studio. Check if I have the new paragraph here.
 author:
   name: Ryo Fujiwara
-  bio: Yes, this is about me.
+  bio: Web Developer & Producer
   image: my-logo.png
 ---
 

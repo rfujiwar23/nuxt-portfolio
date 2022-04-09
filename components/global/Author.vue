@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div>
+    <div class="about-me">
       <h4>About Me: </h4>
-      <p>{{ author.name }}</p>
-      <p>{{ author.bio }}</p>
+      <p>{{ author.name }} - {{ author.bio }}</p>
     </div>
   </div>
 </template>
@@ -18,3 +17,9 @@
     }
   }
 </script>
+
+<style>
+.about-me {
+    font-size:0.8em;
+}
+</style>
