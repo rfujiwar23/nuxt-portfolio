@@ -12,10 +12,12 @@
 
       <article>
         <h1 class="underline">{{ article.title }}</h1>
-        <p>{{ article.description }}</p>
+        <p class="ml-3 mt-2 pb-5">{{ article.description }}</p>
         
         <div class="video-player shadow-xl">
             <video-player :src="article.video"/>
+            <p class="text-sm text-blue">Project Posted At: {{formatDate(article.createdAt)}}<br>
+            Post last Updated: {{ formatDate(article.updatedAt) }}</p>
             <p class="text-red-800">{{ article.bodyText }}</p>
         </div>
 
@@ -25,7 +27,7 @@
           class="p-4"
         /> -->
         
-        <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+        
         
         <nuxt-content :document="article" />
         <author :author="article.author" />
