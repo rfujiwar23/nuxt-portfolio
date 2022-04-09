@@ -2,25 +2,29 @@
   <div>
     <Navbar />
     <div class="m-6">
-        <!-- <nav>
+        <nav>
         <ul>
             <li v-for="link of article.toc" :key="link.id">
             <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
             </li>
         </ul>
-        </nav> -->
+        </nav>
 
       <article>
         <h1>{{ article.title }}</h1>
         <p>{{ article.description }}</p>
-        <div class="video-player">
+        
+        <div class="video-player shadow-xl">
             <video-player :src="article.video"/>
+            <p>{{ article.bodyText }}</p>
         </div>
+
         <!-- <img
           :src="require(`~/assets/images/${article.img}`)"
           :alt="article.alt"
           class="p-4"
         /> -->
+        
         <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
         
         <nuxt-content :document="article" />
@@ -56,6 +60,10 @@ export default {
 </script>
 
 <style>
+body {
+  background:hsl(56, 49%, 93%);
+}
+
 .nuxt-content h2 {
   font-weight: bold;
   font-size: 28px;
@@ -67,9 +75,9 @@ export default {
 .nuxt-content p {
   margin-bottom: 20px;
 }
-article {
-  background: red;
-}
+/* article {
+  background: #fff;
+} */
 
 article h1 {
     font-weight: bold;
@@ -77,5 +85,11 @@ article h1 {
 
 .video-player {
     padding:30px;
+    background: #fff;
+}
+
+.video-player p {
+    margin-top: 20px;
+    padding:0 20px;
 }
 </style>

@@ -26,7 +26,7 @@
                     href="#"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                   >Web</a>
-                  <NuxtLink to="/blog" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">BLOG</NuxtLink>
+                  <NuxtLink to="/video" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">BLOG</NuxtLink>
                 </div>
               </div>
             </div>

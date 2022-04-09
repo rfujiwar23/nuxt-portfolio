@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h4>Author</h4>
+      <h4>About Me: </h4>
       <p>{{ author.name }}</p>
       <p>{{ author.bio }}</p>
     </div>
