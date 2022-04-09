@@ -13,13 +13,16 @@
       <article>
         <h1>{{ article.title }}</h1>
         <p>{{ article.description }}</p>
-        <img
+        <div class="video-player">
+            <video-player :src="article.video"/>
+        </div>
+        <!-- <img
           :src="require(`~/assets/images/${article.img}`)"
           :alt="article.alt"
           class="p-4"
-        />
+        /> -->
         <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
-
+        
         <nuxt-content :document="article" />
         <!-- <author :author="article.author" /> -->
       </article>
@@ -28,6 +31,15 @@
 </template>
 
 <script>
+
+import VideoPlayer from 'nuxt-video-player'
+require('nuxt-video-player/src/assets/css/main.css')
+
+components: {
+    VideoPlayer
+}
+
+
 export default {
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch();
@@ -57,5 +69,13 @@ export default {
 }
 article {
   background: red;
+}
+
+article h1 {
+    font-weight: bold;
+}
+
+.video-player {
+    padding:30px;
 }
 </style>
