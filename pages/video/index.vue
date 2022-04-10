@@ -1,15 +1,19 @@
 <template>
   <div>
     <Navbar />
-    <h1>Video List</h1>
+    <IntroVideo />
+
     
+    <h5>VIDEO LIST</h5>
     <div class="h-full px-6 py-12 lg:flex lg:justify-center lg:items-center">
+      
       <div class="grid lg:grid-cols-3 gap-12 lg:gap-0">
-      <div class="w-full max-w-md mx-auto" v-for="article of articles" :key="article.slug">
+      <div class="shadow-lg bg-white m-3 w-full max-w-md mx-auto" v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'video-slug', params: { slug: article.slug } }">
           <div>
             <h2>{{ article.title }}</h2>
            <img :src="require(`~/assets/images/${article.img}`)" alt="article.title">
+           <p>{{formatDate(article.createdAt)}}</p>
           </div>
         </NuxtLink>
       </div>
@@ -22,7 +26,7 @@
   export default {
     async asyncData({ $content, params }) {
       const articles = await $content('articles')
-        .only(['title', 'description', 'img', 'video','slug', 'author'])
+        .only(['title', 'description', 'img', 'video','slug', 'author', 'createdAt'])
         .sortBy('createdAt', 'asc')
         .fetch()
         
@@ -31,6 +35,12 @@
         
       }
       
-    }
+    },
+    methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    },
+  },
   }
 </script>
