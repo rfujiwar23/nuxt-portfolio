@@ -15,7 +15,9 @@
         <p class="ml-3 mt-2 pb-5">{{ article.description }}</p>
         
         <div class="video-player shadow-xl">
+            <!-- <img :src="require(`~/assets/images/${article.img}`)" alt=""> -->
             <video-player :src="article.video"/>
+            <p class="text-sm"><a v-bind:href="article.url">Click Here</a></p>
             <p class="text-sm text-blue">Project Posted At: {{formatDate(article.createdAt)}}<br>
             Post last Updated: {{ formatDate(article.updatedAt) }}</p>
             <p class="text-red-800">{{ article.bodyText }}</p>
@@ -94,5 +96,9 @@ article h1 {
 .video-player p {
     margin-top: 20px;
     padding:0 20px;
+}
+
+.video-player p a {
+  text-decoration: underline;
 }
 </style>
