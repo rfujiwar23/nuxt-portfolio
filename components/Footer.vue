@@ -2,8 +2,8 @@
   <div>
     <footer class="text-center text-white" style="background-color: #f1f1f1">
       <div class="container pt-9">
-        <div class="flex justify-center mb-9">
-          <!-- instagram -->
+        <!-- <div class="flex justify-center mb-9">
+          
           <a href="#!" class="mr-9 text-gray-800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@
               />
             </svg>
           </a>
-          <!-- linkedin -->
+          
           <a href="#!" class="mr-9 text-gray-800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@
               />
             </svg>
           </a>
-          <!-- LINE -->
+          
           <a href="#!" class="mr-9 text-gray-800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@
               />
             </svg>
           </a>
-        </div>
+        </div> -->
       </div>
 
       <div

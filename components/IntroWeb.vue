@@ -23,18 +23,6 @@
           <i :class="icon.text" class="colored"></i>
         </li>
       </ul>
-      <!-- <ul>
-            <li><i class="devicon-html5-plain colored"></i></li>
-            <li><i class="devicon-css3-plain colored"></i></li>
-            <li><i class="devicon-sass-original colored"></i></li>
-            <li><i class="devicon-tailwindcss-plain colored"></i></li>
-            <li><i class="devicon-bootstrap-plain colored"></i></li>
-            <li><i class="devicon-vuejs-plain-wordmark colored"></i></li>
-            <li><i class="devicon-nuxtjs-plain-wordmark colored"></i></li>
-            <li><i class="devicon-javascript-plain colored"></i></li>
-            <li><i class="devicon-ruby-plain colored"></i></li>
-            <li><i class="devicon-php-plain colored"></i></li>
-        </ul> -->
     </div>
     <p>Image Editing/Prototype</p>
     <div class="list">
@@ -43,14 +31,8 @@
           <i :class="type.text" class="colored"></i>
         </li>
       </ul>
-      <!-- <ul>
-        <li><i class="devicon-figma-plain colored"></i></li>
-        <li><i class="devicon-aftereffects-plain colored"></i></li>
-        <li><i class="devicon-xd-plain colored"></i></li>
-        <li><i class="devicon-photoshop-plain colored"></i></li>
-        <li><i class="devicon-illustrator-plain colored"></i></li>
-      </ul> -->
     </div>
+    <h2 class="mt-5">Websites and Apps</h2>
   </div>
 </template>
 
