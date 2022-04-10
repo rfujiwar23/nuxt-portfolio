@@ -9,23 +9,8 @@
                   src="~/assets/images/my-logo.png"
                   alt="Ryo Fujiwara"
                 ></NuxtLink>
-              <!-- <div class="flex-shrink-0">
-                <img
-                  class="h-8 w-8"
-                  src="~/assets/images/my-logo.png"
-                  alt="Ryo Fujiwara"
-                >
-              </div> -->
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline">
-                  <!-- <a
-                    href="#"
-                    class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Video</a> -->
-                  <!-- <a
-                    href="#"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Web</a> -->
                   <NuxtLink to="/video" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">VIDEO</NuxtLink>
                   <NuxtLink to="/web" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">WEB</NuxtLink>
                 </div>
@@ -33,7 +18,6 @@
             </div>
             
             <div class="-mr-2 flex md:hidden">
-              <!-- Mobile menu button -->
               <button
                 @click="toggle"
                 class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
@@ -71,11 +55,12 @@
         <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
           <div class="px-2 pt-2 pb-3 sm:px-3">
             <a
-              href="#"
+              to="/WEB"
               class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
             >WEB SITES and APPS</a>
+
             <a
-              href="#"
+              href="/VIDEO"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
             >VIDEO</a>
           </div>
@@ -100,3 +85,5 @@ export default {
   }
 }
 </script>
+
+
