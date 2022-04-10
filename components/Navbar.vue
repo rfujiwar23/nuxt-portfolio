@@ -26,8 +26,8 @@
                     href="#"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                   >Web</a> -->
-                  <NuxtLink to="/video" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">BLOG</NuxtLink>
-                  <NuxtLink to="/web" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">BLOG</NuxtLink>
+                  <NuxtLink to="/video" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">VIDEO</NuxtLink>
+                  <NuxtLink to="/web" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">WEB</NuxtLink>
                 </div>
               </div>
             </div>
@@ -73,11 +73,11 @@
             <a
               href="#"
               class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Dashboard</a>
+            >WEB SITES and APPS</a>
             <a
               href="#"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Team</a>
+            >VIDEO</a>
           </div>
           
         </div>
