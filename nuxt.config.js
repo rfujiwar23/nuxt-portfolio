@@ -1,10 +1,13 @@
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'myprojects',
+    title: 'Ryo Fujiwara Portfolio',
     htmlAttrs: {
       lang: 'en'
     },
@@ -34,8 +37,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome',
   ],
 
+  fontawesome: {
+    components: 'fa',
+    icons: {
+      solid:['faEnvelope'],
+      brands:true,
+    }
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/content'
