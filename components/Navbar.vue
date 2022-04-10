@@ -18,15 +18,16 @@
               </div> -->
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline">
-                  <a
+                  <!-- <a
                     href="#"
                     class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Video</a>
-                  <a
+                  >Video</a> -->
+                  <!-- <a
                     href="#"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Web</a>
+                  >Web</a> -->
                   <NuxtLink to="/video" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">BLOG</NuxtLink>
+                  <NuxtLink to="/web" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">BLOG</NuxtLink>
                 </div>
               </div>
             </div>

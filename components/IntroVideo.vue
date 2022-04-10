@@ -1,5 +1,5 @@
 <template>
-    <div class="intro m-5 p-8">
+    <div class="intro m-5 p-8 bg-white-500">
         <h2>Summary</h2>
     <h4>
       In high school, I was playing the piano in school jazz bands for all four years.
@@ -16,9 +16,7 @@
        If I can utilize my video skills for you, great! <br>
        It might be a cherry on top if I can do this on top of being a developer.
     </h4>
-    <h4>
-        You can also check my youTube link here. 
-    </h4>
+    <p>You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</p>
     </div>
 </template>
 
@@ -31,6 +29,11 @@
 
 .intro h4 {
     line-height: 2em;
+}
+
+.intro p a {
+    color:blue;
+    text-decoration: underline;
 }
 
 </style>
