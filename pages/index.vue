@@ -3,12 +3,7 @@
     <Navbar />
     <div class="jumbotron">
       <div class="intro">
-        <div class="profile w-2/4 bg-white">
-          <h1>Ryo Fujiwara</h1>
-          <h3>UIUX Designer/Developer and Video Producer/Editor</h3>
-          <h4>Background in Jazz Composition</h4>
-          <h4>Built with Nuxt.js/Tailwind CSS</h4>
-        </div>
+        
         <div class="message">
           <p>
             I am a UIUX Designer/Developer and Video Producer/Editor based in
@@ -20,8 +15,13 @@
       </div>
       
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 p-5">
-    <div class="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">Ryo Fujiwara</div>
-    <div class="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+    <div class="p-5 rounded-lg">
+      <h1>Ryo Fujiwara</h1>
+      <h3>UI UX Designer/Developer</h3>
+      <h3>Video Producer</h3>
+      <p>Site Built with Nuxt.js and Tailwind CSS</p>      
+      </div>
+    <div class="text-lg font-bold text-center p-14 rounded-lg">
       <img src="~/assets/images/ryo-fujiwara.png" alt="Ryo Fujiwara" class="profile-pic">
     </div>
     <!-- <div class="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg col-span-2">
