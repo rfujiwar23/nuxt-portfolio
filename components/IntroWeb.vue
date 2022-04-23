@@ -9,7 +9,7 @@
       certificate in Web Designs back in 2014. <br />
       Though I made websites, I eventually figured that I couldn't create some
       websites, as they were really web-apps, as my initial attempts at Vue.js
-      and React.js were near disaster. I attended
+      and React.js were almost complete disaster. I attended
       <a href="https://www.lewagon.com/tokyo">Le Wagon Tokyo</a> to educate
       myself on full-stack development, learning about HTML, CSS, Bootstrap,
       JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating

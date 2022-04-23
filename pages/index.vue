@@ -1,49 +1,10 @@
 <template>
-  <!-- <div class="wrap">
-    <Navbar />
-    <div class="jumbotron">
-      <div class="intro">
-        <div class="message">
-          <p>
-            I am a UIUX Designer/Developer and Video Producer/Editor based in
-            Tokyo, Japan. Born in Japan, but US made. I enjoy jogging, boxing,
-            and jazz: my love for jazz big band composition will never go away.
-            &#128521;
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-6 p-5"
-      >
-        <div class="p-5 rounded-lg">
-          <p>Hello There!</p>
-          <h1>Ryo Fujiwara</h1>
-          <h3>UI UX Designer/Developer</h3>
-          <h3>Video Producer</h3>
-          <p>Site Built with Nuxt.js and Tailwind CSS</p>
-          <h1>Coding is
-      <span class="typed-text">{{ typeValue }}</span>
-      <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
-    </h1>
-        </div>
-        <div class="text-lg font-bold text-center p-14 rounded-lg">
-          <img
-            src="~/assets/images/ryo-fujiwara.png"
-            alt="Ryo Fujiwara"
-            class="profile-pic"
-          />
-        </div>
-      </div>
-    </div>
-    <Footer />
-  </div> -->
-  
   <div id="app">
-    <Navbar />
-    <div class="container">
     
-    <h1>I am a 
+    <div class="container">
+      <Navbar />
+    
+    <h1>I am 
       <span class="typed-text">{{ typeValue }}</span>
       <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
     </h1>
@@ -59,7 +20,7 @@ import { setTimeout } from 'timers';
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['UIUX Developer', 'Video Producer'],
+        typeArray: ['an UIUX Developer', 'a Video Producer', 'like an Swiss Army Knife'],
         typingSpeed: 200,
         erasingSpeed: 100,
         newTextDelay: 2000,
@@ -129,7 +90,7 @@ import { setTimeout } from 'timers';
 	 align-items: center;
 }
  h1 {
-	 font-size: 6rem;
+	 font-size: 3rem;
 	 font-weight: normal;
 }
  h1 span.typed-text {
