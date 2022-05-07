@@ -1,11 +1,11 @@
 ---
 title: KAMISMAX - Video2
-description: KAMISMAX2
+description: Entertainment
 img: sunvalley.jpg
 video: https://www.youtube.com/watch?v=YOWTDFe4D4c
 url: https://kamismax.kamisma.com/service2/video/sample33.html
 alt: my first blog post
-bodyText: Yes, this is my project.  Basically, you can check it out here. Edited using Adobe Premiere Pro, audio mixed at the studio. Check if I have the new paragraph here.
+bodyText: Part from the app, KAMISMAX, which is an educational streaming app for the stylists in Japan.  It is like Netflix in terms of design and concept. I was part of the producer/directorial role with this project, in creating the storyboard ahd working with the filming crew to shoot at Team Lab in Tokyo.   This video is to show the entertainment aspect of the stylist, Takuya Takagi, promoting his 'up-to-trend' style ,and making perspective stylists garnering interest.  
 author:
   name: Ryo Fujiwara
   bio: Web Developer & Video Producer

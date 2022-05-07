@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="web-wrapper">
     <Navbar />
     <IntroWeb />
     <div
@@ -48,3 +48,11 @@ export default {
   },
 };
 </script>
+
+
+<style scoped>
+.web-wrapper {
+  font-family: 'Montserrat', sans-serif;
+  padding:5vh 0 0;
+}
+</style>

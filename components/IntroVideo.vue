@@ -16,7 +16,7 @@
        If I can utilize my video skills for you, great! <br>
        It might be a cherry on top if I can do this on top of being a developer.
     </h4>
-    <p>You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</p>
+    <h4>You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</h4>
     </div>
 </template>
 
@@ -29,6 +29,15 @@
 
 .intro h4 {
     line-height: 2em;
+}
+
+.intro h4 a {
+    color:rgb(104, 152, 187);
+    /* font-weight:bold; */
+}
+
+.intro h4 a:hover {
+    font-weight:bold;
 }
 
 .intro p a {

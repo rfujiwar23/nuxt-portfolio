@@ -49,6 +49,7 @@
 
 .wrapper {
   padding:4vh 0;
+      font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper h5 {
