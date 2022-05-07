@@ -20,7 +20,7 @@ import { setTimeout } from 'timers';
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['an UIUX Developer', 'a Video Producer', 'like an Swiss Army Knife'],
+        typeArray: ['an UIUX Developer', 'a Video Producer', 'like a Swiss Army Knife'],
         typingSpeed: 200,
         erasingSpeed: 100,
         newTextDelay: 2000,
@@ -69,20 +69,8 @@ import { setTimeout } from 'timers';
 
 <style scoped>
 
-/* .wrap {
-  background: rgb(7, 17, 66);
-  background: linear-gradient(
-    0deg,
-    rgba(7, 17, 66, 1) 0%,
-    rgba(133, 137, 240, 1) 100%
-  );
-}
 
-.profile-pic {
-  border-radius: 50%;
-  box-shadow: 1px 3px 6px rgba(50, 50, 50, 0.66);
-} */
-.container {
+#app {
 	 width: 100%;
 	 height: 100vh;
 	 display: flex;
@@ -116,6 +104,12 @@ import { setTimeout } from 'timers';
 	 99% {
 		 background-color: transparent;
 	}
+}
+
+@media screen and (max-width:500px) {
+  h1 {
+    font-size: 2em;
+  }
 }
  
 </style>

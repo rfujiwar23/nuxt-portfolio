@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="video-wrapper">
     <Navbar />
     <div class="m-6 bg-green-500 md:bg-red-500 lg:bg-green-500">
         <nav>

@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Navbar />
     <IntroVideo />
 
     
-    <h5>VIDEO LIST</h5>
+    <h5 class="text-center" ref="title">VIDEO LIST</h5>
     <div class="h-full px-6 py-12 lg:flex lg:justify-center lg:items-center">
       
       <div class="grid lg:grid-cols-3 gap-12 lg:gap-0">
@@ -44,3 +44,14 @@
   },
   }
 </script>
+
+<style scoped>
+
+.wrapper {
+  padding:4vh 0;
+}
+
+.wrapper h5 {
+  color:#f00;
+}
+</style>
