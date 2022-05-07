@@ -13,7 +13,9 @@
       <a href="https://www.lewagon.com/tokyo">Le Wagon Tokyo</a> to educate
       myself on full-stack development, learning about HTML, CSS, Bootstrap,
       JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating
-      AirBnb clone, and also creating an English-Speaking App with the team.
+      AirBnb clone, and also creating an English-Speaking App with the team.  I'm most comfortable with 
+      front-end development, but my role in my job has called upon to do back-end as well, as I am proficient
+      with php and Rails as a back-end.  
     </p>
     <h2 class="mt-5">Skills</h2>
     <p>Mark-Up/Programming</p>
