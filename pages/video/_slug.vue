@@ -21,7 +21,8 @@
             <p class="text-sm text-green-900 leading-8">Project Posted At: {{formatDate(article.createdAt)}}<br>
             Post last Updated: {{ formatDate(article.updatedAt) }}</p>
             <div class="rounded mx-auto bg-slate-200 p-3 my-5">
-            <p class="body leading-8"><span class="text-green-900 italic text-xl">Description:</span> <br>{{ article.bodyText }}</p>
+            <p class="body leading-8"><span class="text-green-900 italic text-xl">Description:</span></p>
+            <p class="body leading-8" v-html="article.bodyText"></p>
             </div>
         </div>
 
