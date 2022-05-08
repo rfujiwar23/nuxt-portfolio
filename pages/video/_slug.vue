@@ -2,15 +2,28 @@
   <div class="video-wrapper">
     <Navbar />
     <div class="sm:m-0 md:m-6">
-        <nav>
+        <!-- <nav>
         <ul>
             <li v-for="link of article.toc" :key="link.id">
             <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
             </li>
         </ul>
-        </nav>
-
+        </nav> -->
+        <!-- <pre>{{article}}</pre> -->
+        <!-- <pre>{{listUp}}</pre> -->
+        <!-- <ul>
+          <li v-for="list of listUp" :key="list.slug">
+        <NuxtLink :to="{ name: 'video', params: { slug: list.slug } }">
+            {{ list.title }}
+        </NuxtLink>
+      </li>
+        </ul> -->
+      
+        
+      <NuxtLink to="./" ><fa icon="rotate-left" class="icon" /> Go Back</NuxtLink >
+      
       <article>
+        
         <h2 class="underline ml-3">{{ article.title }}</h2>
         <p class="ml-3 mt-2 pb-5">{{ article.description }}</p>
         
@@ -31,6 +44,9 @@
         <!-- <author :author="article.author" /> -->
       </article>
     </div>
+
+    
+
     <Footer />
   </div>
 </template>
@@ -45,11 +61,14 @@ components: {
 }
 
 
+
 export default {
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch();
 
     return { article };
+
+    
   },
   methods: {
     formatDate(date) {
