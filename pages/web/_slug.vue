@@ -10,11 +10,12 @@
       <article class="pt-15">
         <h2 class="underline ml-3 text-2xl">{{ post.title }}</h2>
         <p class="ml-3 mt-2 pb-5" v-html="post.description"></p>
-        <div class="video-player shadow-xl">
+        <div class="video-player shadow-xl py-3 px-5 bg-white mb-10">
             <!-- <video-player :src="post.video"/> -->
             <img
                 :src="require(`~/assets/images/${post.img}`)"
                 alt="post.title"
+                class="mx-auto my-3 px-4"
               />
             <p class="text-sm leading-8"><a v-bind:href="post.url">Click for Link</a></p>
             <p class="text-sm text-green-900 leading-8">Project Posted At: {{formatDate(post.createdAt)}}<br>
