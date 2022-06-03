@@ -8,10 +8,6 @@
       And I've been wanting to create online video platform ever since. And it got me interested in wanting to create a similar service ever since,
       wanting to know about technical broadcasting skills through the use of computers.  
       <br>
-      Also media piracy (getting music and movies through internet during that time) made me realize that I was enjoying 
-      music and watching movies and TV shows on my PC, so it all coincided in myself wanting to create a broadcast or a service that would allow one to enjoy 
-      entertainment through PCs.
-      <br> 
       I started my professional career as an Assistant Director, creating broadcast videos,
        with my strengths in creating home-shopping videos.  I initially started out on gaining experience on creating promotional
        videos on e-commerce and other in-store videos, and eventually got the opportunity to direct 
