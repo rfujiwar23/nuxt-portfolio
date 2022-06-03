@@ -11,10 +11,10 @@
       websites, as they were really web-apps, as my initial attempts at Vue.js
       and React.js were almost complete disaster. I attended
       <a href="https://www.lewagon.com/tokyo">Le Wagon Tokyo</a> to educate
-      myself on full-stack development, learning about HTML, CSS, Bootstrap,
+      myself on full-stack development, learning about HTML/CSS, Bootstrap,
       JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating
       AirBnb clone, and also creating an English-Speaking App with the team.  I'm most comfortable with 
-      front-end development, but my role in my job has called upon to do back-end as well, as I am proficient
+      front-end development through my prior experience as a web designer, but my role in my current job calls upon to do back-end as well, as I am proficient
       with php and Rails as a back-end.  <br>
       Got a mix of front-end development of apps and also web designs, most of those that are up in business.  
 

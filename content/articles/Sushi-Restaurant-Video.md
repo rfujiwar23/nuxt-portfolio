@@ -11,18 +11,3 @@ author:
   bio: Web Developer & Video Producer
   image: my-logo.png
 ---
-
-<author :author="author"></author>
-<!-- <info-box>
-  <template #info-box>
-    This is a vue component inside markdown using slots
-  </template>
-</info-box> -->
-
-<!-- ## This is a heading
-
-This is some more info
-
-### This is a sub heading
-
-This is some more info -->
