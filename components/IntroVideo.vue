@@ -13,9 +13,9 @@
        videos on e-commerce and other in-store videos, and eventually got the opportunity to direct 
        the in-studio programming, of one project being a turning point in directing the programming 
        for the first time.  <br>Even though I changed jobs in my career,
-       creating videos have come with me, being able to utilize my skills as an editor and overall visual storyteller.
+       creating videos and the skills that I've acquired have come to be as valuable,,being able to utilize my skills as an editor and overall visual storyteller.
        In my recent job, I've been working as a developer and a web video creator (as well as commercials and a short programming on FUJI TV).
-       If I can utilize my video skills for you, great!  <br>
+       <br>
        Creating home shopping videos made me a better UX designer. 
     </h4>
     <h4>You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</h4>
