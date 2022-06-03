@@ -6,7 +6,7 @@
     <h5 class="text-center" ref="title">VIDEO LIST</h5>
     
     <div class="h-full px-6 py-12 lg:flex lg:justify-center lg:items-center">
-      <div class="grid lg:grid-cols-3 gap-12 lg:gap-0">
+      <div class="grid lg:grid-cols-3 gap-4">
         <div
           class="shadow-lg bg-white m-3 w-full max-w-md mx-auto"
           v-for="article of articles"
