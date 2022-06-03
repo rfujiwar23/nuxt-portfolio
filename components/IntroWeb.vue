@@ -15,7 +15,9 @@
       JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating
       AirBnb clone, and also creating an English-Speaking App with the team.  I'm most comfortable with 
       front-end development, but my role in my job has called upon to do back-end as well, as I am proficient
-      with php and Rails as a back-end.  
+      with php and Rails as a back-end.  <br>
+      Got a mix of front-end development of apps and also web designs, most of those that are up in business.  
+
     </p>
     <h2 class="mt-5">Skills</h2>
     <p>Mark-Up/Programming</p>

@@ -5,7 +5,13 @@
       In high school, I was playing the piano in school jazz bands for all four years.
       It was broadcasted live on TV initially, but it eventually went to be broadcasted live on internet,
       when ADSL was still a hot commodity, so it was on a 45 second delay, when viewing on Internet.
-      And I've been wanting to create online video platform ever since.<br> 
+      And I've been wanting to create online video platform ever since. And it got me interested in wanting to create a similar service ever since,
+      wanting to know about technical broadcasting skills through the use of computers.  
+      <br>
+      Also media piracy (getting music and movies through internet during that time) made me realize that I was enjoying 
+      music and watching movies and TV shows on my PC, so it all conincided in myself wanting to create a broadcast or a service that would allow one to enjoy 
+      entertainment through PCs.
+      <br> 
       I started my professional career as an Assistant Director, creating broadcast videos,
        with my strengths in creating home-shopping videos.  I initially started out on gaining experience on creating promotional
        videos on e-commerce and other in-store videos, and eventually got the opportunity to direct 
@@ -13,8 +19,8 @@
        for the first time.  <br>Even though I changed jobs in my career,
        creating videos have come with me, being able to utilize my skills as an editor and overall visual storyteller.
        In my recent job, I've been working as a developer and a web video creator (as well as commercials and a short programming on FUJI TV).
-       If I can utilize my video skills for you, great! <br>
-       It might be a cherry on top if I can do this on top of being a developer.
+       If I can utilize my video skills for you, great!  <br>
+       Creating home shopping videos made me a better UX designer. 
     </h4>
     <h4>You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</h4>
     

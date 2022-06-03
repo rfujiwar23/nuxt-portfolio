@@ -1,0 +1,8 @@
+---
+title: NILE BEAUTY
+description: This is a web-app, currently for the beauty/salon companies globally, in place for attending exhibitions in person. 
+bodyText: <strong>Problem (What This App Accomplishes)</strong><br>Not only with COVID-19, many people rely on smartphone and web these days to connect with people and businesses. Spending too much money and time on attending exhibitions all over the world can be an hassle.<br><br><strong>The Solution</strong><br>NILE - the online business matching app, without worrying about attending exhibitions in person; chat and grow business relationships from there.<br><strong>The Process</strong><br>I've researched into user persona and designs of many services, both online exhibitions and also social media, such as Facebook, LinkedIn, etc. Online exhibition apps have booths to gather information or even take a break, and in terms of creating as a web-app, it's attainable but needs more engineers. So, instead...we've implemented a Facebook/LinkedIn type of system to be able to chat after businesses are matched based on an article they read or product that they are interested in.The design of the site is primarily based on the color scheme of the logo, which was created even before the production of the site was started. Using Ruby On Rails with Vue, in terms of coding, my role was front-end, and got more strenghs in coding with Vue.js.
+img: NILE-BEAUTY.png
+alt: KAMI-1
+url: https://beauty.nile.inc
+---
