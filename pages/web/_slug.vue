@@ -77,4 +77,8 @@ export default {
   padding-bottom:10vh;
   
 }
+
+.body span.inner-link {
+  color:blue;
+}
 </style>
