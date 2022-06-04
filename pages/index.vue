@@ -13,7 +13,9 @@
         </div>
         <div>
           <h1 class="text-white md:text-3xl text-xl">
-            <span class="bg-gray-800 bg-opacity-75 px-5">RYO FUJIWARA<fa icon="rotate-left" class="icon" /></span>
+            <span class="bg-gray-800 bg-opacity-75 px-5"
+              >RYO FUJIWARA<fa icon="rotate-left" class="icon"
+            /></span>
           </h1>
         </div>
         <div>
@@ -48,11 +50,11 @@ import { setTimeout } from "timers";
 export default {
   head: {
     htmlAttrs: {
-      class: 'html-class'
+      class: "html-class",
     },
     bodyAttrs: {
-      class: 'body-class'
-    }
+      class: "body-class",
+    },
   },
   data: () => {
     return {
@@ -110,14 +112,11 @@ export default {
 </script>
 
 <style scoped>
-
 .html-class {
   height: 100%;
-  
 }
 .body-class {
   height: 100%;
-  
 }
 #app {
   width: 100%;
@@ -125,10 +124,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://res.cloudinary.com/rfujiwar23/image/upload/v1654312548/portfolio/tokyo1.png)
-    no-repeat;
+  background: url(https://res.cloudinary.com/rfujiwar23/image/upload/v1654312548/portfolio/tokyo1.png) no-repeat;
   background-position: center;
-  
   background-size: cover;
 }
 h2 {

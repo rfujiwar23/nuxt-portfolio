@@ -2,7 +2,6 @@
   <div class="video-wrapper">
     <Navbar />
     
-    <!-- <SocialLinks /> -->
     <div class="sm:m-0 md:m-6">
         <!-- <nav>
         <ul>
@@ -21,7 +20,7 @@
       </li>
         </ul> -->
       
-        <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./">Go Back</NuxtLink ></div>
+        <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./"><span>&#8592;</span> Back</NuxtLink ></div>
       
       
       <article>

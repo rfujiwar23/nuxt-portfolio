@@ -8,7 +8,7 @@
     
     <div class="inner">
 
-      <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./">Go Back</NuxtLink ></div>
+      <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./"><span>&#8592;</span> Back</NuxtLink ></div>
 
       <article class="pt-8">
         

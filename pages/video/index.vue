@@ -16,12 +16,12 @@
             :to="{ name: 'video-slug', params: { slug: article.slug } }"
           >
             <div>
-              <h2>{{ article.title }}</h2>
+              <h2 class="text-sm py-3 pl-2 underline italic bg-stone-700 text-white font-bold">{{ article.title }}</h2>
               <img
                 :src="require(`~/assets/images/${article.img}`)"
                 alt="article.title"
               />
-              <p>{{ formatDate(article.createdAt) }}</p>
+              <p class="text-xs py-3 pl-2 bg-stone-700 text-white">{{ formatDate(article.createdAt) }}</p>
             </div>
           </NuxtLink>
         </div>
