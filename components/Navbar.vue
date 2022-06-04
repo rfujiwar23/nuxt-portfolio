@@ -22,6 +22,11 @@
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                   >WEB</NuxtLink
                 >
+                <NuxtLink
+                  to="/profile"
+                  class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                  >PROFILE</NuxtLink
+                >
               </div>
             </div>
           </div>
@@ -73,6 +78,12 @@
             href="/VIDEO"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
             >VIDEO</a
+          >
+
+          <a
+            href="/PROFILE"
+            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            >PROFILE</a
           >
         </div>
       </div>
