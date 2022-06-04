@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="fill-height">
     <div class="container relative">
       <Navbar />
 
@@ -46,6 +46,14 @@
 // export default {};
 import { setTimeout } from "timers";
 export default {
+  head: {
+    htmlAttrs: {
+      class: 'html-class'
+    },
+    bodyAttrs: {
+      class: 'body-class'
+    }
+  },
   data: () => {
     return {
       typeValue: "",
@@ -102,6 +110,15 @@ export default {
 </script>
 
 <style scoped>
+
+.html-class {
+  height: 100%;
+  
+}
+.body-class {
+  height: 100%;
+  
+}
 #app {
   width: 100%;
   height: 100vh;
@@ -111,7 +128,8 @@ export default {
   background: url(https://res.cloudinary.com/rfujiwar23/image/upload/v1654312548/portfolio/tokyo1.png)
     no-repeat;
   background-position: center;
-  /* background-size: cover; */
+  
+  background-size: cover;
 }
 h2 {
   /* font-size: 3rem; */
