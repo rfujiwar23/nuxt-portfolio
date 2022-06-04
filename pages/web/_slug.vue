@@ -11,6 +11,7 @@
       <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./">Go Back</NuxtLink ></div>
 
       <article class="pt-8">
+        
         <h2 class="underline ml-3 text-2xl">{{ post.title }}</h2>
         <p class="ml-3 mt-2 pb-5" v-html="post.description"></p>
         <div class="video-player shadow-xl py-3 px-5 bg-white mb-10">
@@ -42,7 +43,12 @@
 </template>
 
 <script>
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSpinner, faAlignLeft } from '@fortawesome/free-solid-svg-icons'
 import SlugFooter from '../../components/SlugFooter.vue';
+
+library.add(faSpinner, faAlignLeft)
+
 export default {
     async asyncData({ $content, params }) {
         const post = await $content("posts", params.slug).fetch();
