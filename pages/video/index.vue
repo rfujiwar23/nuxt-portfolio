@@ -64,9 +64,10 @@ export default {
 
 <style scoped>
 .wrapper {
-  padding: 4vh 0;
+  padding: 5vh 0 0;
   font-family: "Montserrat", sans-serif;
   position: relative;
+  background:rgb(216, 237, 212);
 }
 
 .wrapper h5 {

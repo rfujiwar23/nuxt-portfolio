@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="fill-height">
+    
     <div class="container relative">
       <Navbar />
 
@@ -24,7 +25,7 @@
           </h2>
         </div>
         <div class="mt-5">
-          <h2 class="md:text-3xl text-3xl px-4 bg-gray-800 bg-opacity-75">
+          <h2 class="md:text-3xl sm:text-3xl text-xl px-4 bg-gray-800 bg-opacity-75">
             I am
             <span class="typed-text">{{ typeValue }}</span>
             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
@@ -63,12 +64,12 @@ export default {
       typeArray: [
         "an UIUX Developer",
         "a Video Creator",
-        "a Japanese Bilingual",
+        "a JP/ENG Bilingual",
         "like a Swiss Army Knife",
       ],
       typingSpeed: 200,
       erasingSpeed: 100,
-      newTextDelay: 2000,
+      newTextDelay: 1000,
       typeArrayIndex: 0,
       charIndex: 0,
     };

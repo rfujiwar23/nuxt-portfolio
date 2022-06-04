@@ -1,8 +1,8 @@
 <template>
-  <div class="video-wrapper">
+  <div class="video-wrapper relative">
     <Navbar />
     
-    <div class="sm:m-0 md:m-6">
+    <div class="sm:m-0 md:m-6" style="padding-bottom:10vh;">
         <!-- <nav>
         <ul>
             <li v-for="link of article.toc" :key="link.id">
@@ -50,7 +50,7 @@
 
     
 
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -88,7 +88,7 @@ body {
 }
 
 .video-wrapper {
-  padding:8vh 0;
+  padding:8vh 0 5vh;
 }
 
 

@@ -2,7 +2,7 @@
   
 
 
-  <div class="web-wrapper">
+  <div class="web-wrapper relative">
     <Navbar />
     
     
@@ -38,7 +38,7 @@
     </article>
     </div>
     
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -66,14 +66,15 @@ export default {
 
 <style scoped>
 .web-wrapper {
-  padding:4vh 0 2vh;
+  padding:5vh 0 2vh;
   background:rgb(216, 237, 212);
 }
 
 .web-wrapper .inner {
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-left: 3vw;
   padding-right: 3vw;
+  padding-bottom:10vh;
   
 }
 </style>

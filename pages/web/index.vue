@@ -4,8 +4,7 @@
     <IntroWeb />
     <SocialLinks />
     <div
-      class="h-full px-6 pt-0 pb-12 lg:flex lg:justify-center lg:items-center"
-    >
+      class="h-full px-6 pt-0 lg:flex lg:justify-center lg:items-center contents">
       <div class="grid lg:grid-cols-3 gap-4 md:grid-cols-2 gap-12">
         <div
           class="shadow-lg rounded-sm w-full"
@@ -57,5 +56,9 @@ export default {
   font-family: "Montserrat", sans-serif;
   padding: 5vh 0 0;
   background: rgb(216, 237, 212);
+}
+
+.contents {
+  padding-bottom: 5vh;
 }
 </style>
