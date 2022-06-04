@@ -1,6 +1,6 @@
 ---
-title: KAMI CHARISMA File 24
-description: TV Episode 髪カリスマたち（KAMI KARISUMA TACHI）
+title: KC File 24
+description: TV Episode
 img: file24.jpg
 video: https://www.youtube.com/watch?v=ZPBD9LRGjaE
 url: https://kamismax.kamisma.com/service2/video/kami_charisma24.html

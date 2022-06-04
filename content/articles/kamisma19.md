@@ -1,6 +1,6 @@
 ---
-title: KAMI CHARISMA File 19
-description: TV Episode 髪カリスマたち（KAMI KARISUMA TACHI）
+title: KC File 19
+description: TV Episode
 img: file19.jpg
 video: https://www.youtube.com/watch?v=ZPBD9LRGjaE
 url: https://kamismax.kamisma.com/service2/video/kami_charisma19.html
