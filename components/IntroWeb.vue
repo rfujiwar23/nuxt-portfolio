@@ -16,7 +16,7 @@
       AirBnb clone, and also creating an English-Speaking App with the team.  I'm most comfortable with 
       front-end development through my prior experience as a web designer, but my role in my current job calls upon to do back-end as well, as I am proficient
       with php and Rails as a back-end.  <br>
-      Got a mix of front-end development of apps and also web designs, most of those that are up in business.  
+      <strong style="text-decoration:underline;">Got a mix of front-end development of apps and also web designs, most of those that are up in business, and have created since 2019. I've got more created prior to 2019, would share some of those privately.</strong>  
 
     </p>
     <h2 class="mt-5">Skills</h2>

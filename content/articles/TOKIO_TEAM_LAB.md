@@ -1,7 +1,7 @@
 ---
 title: TOKIO INKARAMI Commercial 30"
 description: In collaboration with TOKYO TEAM LAB
-img: sushi-maru.png
+img: inkarami.png
 video: https://www.youtube.com/watch?v=iXx3bPMtgT0
 url: https://www.youtube.com/watch?v=iXx3bPMtgT0
 alt: TOKIO INKARAMI

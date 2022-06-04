@@ -16,13 +16,14 @@
        creating videos and the skills that I've acquired have come to be as valuable, being able to utilize my skills as an editor and overall visual storyteller.
        In my recent job, I've been working as a developer and a web video creator (as well as commercials and a short programming on FUJI TV).
        <br>
-       Creating home shopping videos made me a better UX designer. 
+       <strong>Creating home shopping videos made me a better UX designer. </strong>
+
     </h4>
-    <h4>You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</h4>
-    
+    <h4 style="text-decoration:underline;">The videos listed below are hand-picked to be on this portfolio page. You can also check my youTube <a href="https://www.youtube.com/channel/UCHz1cdglUwlNnvpOsYAWEcQ">link here</a>. (Not a youTuber by profession. I use youTube for portfolio purpose, with a lot of my job related ones being unlisted.)</h4>
+    <!-- <h4></h4> -->
     <ul class="my-4">
         <li class="text-sky-700 hover:text-pink-600 hover:font-bold hover:underline"><a href="https://www.youtube.com/watch?v=BC2ZUcRr_QA&list=PLCt6vlWYWVowUszdN7PAsnm3AGKv4WfS5">Work Reel (2019 - present)</a></li>
-        <li class="text-sky-700 hover:text-pink-600 hover:font-bold hover:underline"><a href="https://www.youtube.com/watch?v=AkrXN8kU514&list=PLCt6vlWYWVoziloM_vLI38zXnrUiSRNx-&index=1">Music Reel (since college)</a></li>
+        <!-- <li class="text-sky-700 hover:text-pink-600 hover:font-bold hover:underline"><a href="https://www.youtube.com/watch?v=AkrXN8kU514&list=PLCt6vlWYWVoziloM_vLI38zXnrUiSRNx-&index=1">Music Reel (since college)</a></li> -->
     </ul>
     
     </div>
