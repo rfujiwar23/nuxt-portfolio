@@ -3,6 +3,17 @@
     
     <div class="container">
       <Navbar />
+      <div class="me-myself-ryo md:w-1/6">
+        <h2 class="text-center">RYO FUJIWARA</h2>
+        <div class="img">
+          <img
+                
+                src="~/assets/images/ryo-fujiwara.png"
+                alt="Ryo Fujiwara"
+            />
+        </div>
+        
+      </div>
     
     <h1>I am 
       <span class="typed-text">{{ typeValue }}</span>
@@ -20,7 +31,7 @@ import { setTimeout } from 'timers';
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['an UIUX Developer', 'a Video Producer', 'like a Swiss Army Knife'],
+        typeArray: ['an UIUX Developer', 'a Video Creator', 'a Japanese Bilingual', 'like a Swiss Army Knife'],
         typingSpeed: 200,
         erasingSpeed: 100,
         newTextDelay: 2000,
@@ -76,13 +87,18 @@ import { setTimeout } from 'timers';
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
+   background:url(https://res.cloudinary.com/rfujiwar23/image/upload/v1654312548/portfolio/tokyo1.png) no-repeat;
+   background-position:center;
+   /* background-size: cover; */
+
 }
  h1 {
 	 font-size: 3rem;
 	 font-weight: normal;
+   color:#fff;
 }
  h1 span.typed-text {
-	 color: #d2b94b;
+	 color: #82e00f;
 }
  h1 span.cursor {
 	 display: inline-block;
@@ -106,9 +122,19 @@ import { setTimeout } from 'timers';
 	}
 }
 
+.me-myself-ryo {
+  font-size: 1.25em;
+  color:#fff;
+}
+
 @media screen and (max-width:500px) {
   h1 {
     font-size: 2em;
+    padding:0 3vw;
+  }
+
+  .me-myself-ryo {
+    padding: 0 3vw;
   }
 }
  
