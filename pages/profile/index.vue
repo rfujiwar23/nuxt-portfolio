@@ -4,7 +4,7 @@
         <Navbar />
         <SocialLinks />
         <div class="profile sm:w-2/3 w-11/12 py-4 mx-auto bg-lime-200 bg-opacity-75">
-            <div class="w-5/6 mx-auto">
+            <div class="sm:w-1/3 w-1/2 mx-auto">
                 <h1><img src="https://res.cloudinary.com/rfujiwar23/image/upload/v1594200193/portfolio-page/logo_ryo_fujiwara.png" alt="Ryo Fujiwara" class="img"></h1>
             </div>
             <h6 class="py-3 px-3 text-sm font-bold italic text-sm"><span class="underline">Bachelor of Arts:</span> Indiana University '07</h6>
