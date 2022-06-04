@@ -47,7 +47,7 @@ export default {
   fontawesome: {
     component: 'fa',
     icons: {
-      solid: ['faClock', 'faFolder', 'faRotateLeft']
+      solid: ['faClock', 'faFolder', 'faEnvelope']
     }
   },
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container">
+    <div class="container relative">
       <Navbar />
 
       <div class="lg:w-2/3 mx-auto text-center">
@@ -13,7 +13,7 @@
         </div>
         <div>
           <h1 class="text-white md:text-3xl text-xl">
-            <span class="bg-gray-800 bg-opacity-75 px-5">RYO FUJIWARA</span>
+            <span class="bg-gray-800 bg-opacity-75 px-5">RYO FUJIWARA<fa icon="rotate-left" class="icon" /></span>
           </h1>
         </div>
         <div>
@@ -29,6 +29,15 @@
           </h2>
         </div>
       </div>
+
+      <SocialLinks />
+      <!-- <div class="social-links fixed bottom-5 right-5 bg-teal-800 bg-opacity-60 py-2 px-3">
+        <ul>
+          <li class="inline pr-5"><a href="https://github.com/rfujiwar23" class="text-white"><i class="text-2xl devicon-github-original"></i></a></li>
+          <li class="inline pr-5"><a href="https://www.linkedin.com/in/rfujiwara276/" class="text-white"><i class="text-2xl devicon-linkedin-plain"></i></a></li>
+          <li class="inline pr-5"><a href="mailto:rfujiwar@gmail.com" class="text-white"><fa icon="envelope" class="text-2xl icon" /></a></li>
+        </ul>
+      </div> -->
     </div>
   </div>
 </template>

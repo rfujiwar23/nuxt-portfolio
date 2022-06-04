@@ -4,10 +4,13 @@
 
   <div class="web-wrapper">
     <Navbar />
+    
+    
     <div class="inner">
 
+      <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./">Go Back</NuxtLink ></div>
 
-      <article class="pt-15">
+      <article class="pt-8">
         <h2 class="underline ml-3 text-2xl">{{ post.title }}</h2>
         <p class="ml-3 mt-2 pb-5" v-html="post.description"></p>
         <div class="video-player shadow-xl py-3 px-5 bg-white mb-10">
@@ -33,34 +36,36 @@
     <nuxt-content :document="post" />
     </article>
     </div>
-    <Footer />
+    
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
+import SlugFooter from '../../components/SlugFooter.vue';
 export default {
-  async asyncData({ $content, params }) {
-    const post = await $content("posts", params.slug).fetch();
-
-    return { post };
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" };
-      return new Date(date).toLocaleDateString("en", options);
+    async asyncData({ $content, params }) {
+        const post = await $content("posts", params.slug).fetch();
+        return { post };
     },
-  },
+    methods: {
+        formatDate(date) {
+            const options = { year: "numeric", month: "long", day: "numeric" };
+            return new Date(date).toLocaleDateString("en", options);
+        },
+    },
+    components: { SlugFooter }
 };
 </script>
 
 <style scoped>
 .web-wrapper {
-  padding:4vh 0 0;
+  padding:4vh 0 2vh;
   background:rgb(216, 237, 212);
 }
 
 .web-wrapper .inner {
-  padding-top: 10vh;
+  padding-top: 4vh;
   padding-left: 3vw;
   padding-right: 3vw;
   

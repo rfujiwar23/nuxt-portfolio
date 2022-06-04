@@ -1,6 +1,8 @@
 <template>
   <div class="video-wrapper">
     <Navbar />
+    
+    <!-- <SocialLinks /> -->
     <div class="sm:m-0 md:m-6">
         <!-- <nav>
         <ul>
@@ -19,8 +21,8 @@
       </li>
         </ul> -->
       
-        
-      <NuxtLink to="./" ><fa icon="rotate-left" class="icon" /> Go Back</NuxtLink >
+        <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./">Go Back</NuxtLink ></div>
+      
       
       <article>
         
@@ -29,7 +31,9 @@
         
         <div class="video-player shadow-xl">
             <!-- <img :src="require(`~/assets/images/${article.img}`)" alt=""> -->
-            <video-player :src="article.video"/>
+            <div class="z-8">
+              <video-player :src="article.video"/>
+            </div>
             <p class="text-sm leading-8"><a v-bind:href="article.url">Main Video Page</a></p>
             <p class="text-sm text-green-900 leading-8">Project Posted At: {{formatDate(article.createdAt)}}<br>
             Post last Updated: {{ formatDate(article.updatedAt) }}</p>
@@ -47,7 +51,7 @@
 
     
 
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <div class="wrapper">
     <Navbar />
     <IntroVideo />
-
+    <SocialLinks />
     <h5 class="text-center" ref="title">VIDEO LIST</h5>
     
     <div class="h-full px-6 py-12 lg:flex lg:justify-center lg:items-center">
@@ -29,7 +29,7 @@
       
     </div>
     
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

@@ -1,5 +1,6 @@
 <template>
   <div class="intro m-5 p-8 bg-white-500">
+    <SocialLinks />
     <h2>Summary</h2>
     <p>
       I've always wanted to create a web service that allows online streaming to

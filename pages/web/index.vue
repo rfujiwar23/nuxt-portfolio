@@ -1,7 +1,8 @@
 <template>
-  <div class="web-wrapper">
+  <div class="web-wrapper relative">
     <Navbar />
     <IntroWeb />
+    <SocialLinks />
     <div
       class="h-full px-6 pt-0 pb-12 lg:flex lg:justify-center lg:items-center"
     >
@@ -24,7 +25,7 @@
         </div>
       </div>
     </div>
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -54,6 +55,6 @@ export default {
 .web-wrapper {
   font-family: 'Montserrat', sans-serif;
   padding:5vh 0 0;
-  background: rgb(182, 214, 230);
+  background: rgb(216, 237, 212);
 }
 </style>
