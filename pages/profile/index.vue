@@ -8,9 +8,11 @@
                 <h1><img src="https://res.cloudinary.com/rfujiwar23/image/upload/v1594200193/portfolio-page/logo_ryo_fujiwara.png" alt="Ryo Fujiwara" class="img"></h1>
             </div>
             <h6 class="py-3 px-3 text-sm font-bold italic text-sm"><span class="underline">Bachelor of Arts:</span> Indiana University '07</h6>
-            <p class="py-2 px-3">My professional experience in creating video of all sorts, and designing and creating websites and web apps come from my
+            <p class="py-2 px-3">My professional experience in creating video of all sorts, and designing and creating websites/web-apps come from my
                 life-long love for composing jazz big band music, which I majored in, but really started with my piano lessons back in high school when 
-                I was taught the basics of big band composition techniques, and my piano teacher and school big band teacher/director, being very tech-savvy with cool gadgets and constantly thinking ahead.  
+                I was taught the basics of big band composition through use of MIDI and notation software, Finale, and my piano teacher 
+                and school jazz big band teacher/director were very tech-savvy with cool gadgets and getting me interested in creating entertainment 
+                through the use of PC.
             </p>
             <p class="py-2 px-3">I attribute a lot of my interests to piano, and constantly have my eyes opened for new trends in technology, and why I find myself creating
                 websites, videos, and big band charts with my MacBook a good chunk of my time.</p>
