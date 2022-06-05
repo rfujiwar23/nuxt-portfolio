@@ -37,6 +37,14 @@
         </li>
       </ul>
     </div>
+    <p>Mark-Up/Programming</p>
+    <div class="list">
+      <ul>
+        <li v-for="icon in others" :key="icon.id">
+          <i :class="icon.text" class="colored"></i>
+        </li>
+      </ul>
+    </div>
     <h2 class="mt-5">Websites and Apps</h2>
   </div>
 </template>
@@ -56,6 +64,9 @@ export default {
         { text: "devicon-javascript-plain", id: 8 },
         { text: "devicon-ruby-plain", id: 9 },
         { text: "devicon-php-plain", id: 10 },
+        { text: "devicon-drupal-plain", id: 11 },
+        { text: "devicon-typescript-plain", id: 12 },
+        { text: "devicon-wordpress-plain", id: 12 },
       ],
       prototypes: [
         { text: "devicon-figma-plain", id: 1 },
@@ -63,6 +74,13 @@ export default {
         { text: "devicon-xd-plain", id: 3 },
         { text: "devicon-photoshop-plain", id: 4 },
         { text: "devicon-illustrator-plain", id: 5 },
+        { text: "devicon-sketch-line", id: 6 },
+        { text: "devicon-canva-original", id: 7 },
+      ],
+      others: [
+        { text: "devicon-github-original", id: 1 },
+        // { text: "devicon-canva-original", id: 2 },
+        { text: "devicon-filezilla-plain", id: 2 },
       ],
     };
   },
