@@ -63,6 +63,7 @@ export default {
       typeStatus: false,
       typeArray: [
         "a Front-End Developer",
+        "an UIUX Designer",
         "a Video Creator",
         "a JP/ENG Bilingual",
         "like a Swiss Army Knife",
