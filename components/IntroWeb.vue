@@ -37,7 +37,7 @@
         </li>
       </ul>
     </div>
-    <p>Mark-Up/Programming</p>
+    <p>Others</p>
     <div class="list">
       <ul>
         <li v-for="icon in others" :key="icon.id">
