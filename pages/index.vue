@@ -66,6 +66,7 @@ export default {
         "a Video Creator",
         "a JP/ENG Bilingual",
         "like a Swiss Army Knife",
+        "obsessed with Vue/Nuxt",
       ],
       typingSpeed: 200,
       erasingSpeed: 100,
