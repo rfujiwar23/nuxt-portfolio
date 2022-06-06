@@ -64,10 +64,11 @@ export default {
       typeArray: [
         "a Front-End Developer",
         "an UIUX Designer",
+        "obsessed with Vue/Nuxt",
         "a Video Creator",
         "a JP/ENG Bilingual",
+        "a former sushi chef: fun fact",
         "like a Swiss Army Knife",
-        "obsessed with Vue/Nuxt",
         "influenced from jazz"
       ],
       typingSpeed: 200,
