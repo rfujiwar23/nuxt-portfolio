@@ -13,14 +13,14 @@
         >
           <NuxtLink :to="{ name: 'web-slug', params: { slug: post.slug } }">
             <div>
-              <h2 class="text-sm py-3 pl-2 underline italic bg-red-500 font-bold text-white">
+              <h2 class="text-sm py-3 pl-2 underline italic bg-teal-600 font-bold text-white">
                 {{ post.title }}
               </h2>
               <img
                 :src="require(`~/assets/images/${post.img}`)"
                 alt="post.title"
               />
-              <p class="text-xs py-3 pl-2 bg-red-500 text-white">{{ formatDate(post.createdAt) }}</p>
+              <p class="text-xs py-3 pl-2 bg-teal-600 text-white">{{ formatDate(post.createdAt) }}</p>
             </div>
           </NuxtLink>
         </div>

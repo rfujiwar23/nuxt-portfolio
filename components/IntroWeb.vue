@@ -1,5 +1,5 @@
 <template>
-  <div class="intro m-5 p-8 bg-white-500">
+  <div class="intro m-5 py-8 px-2 bg-white-500">
     <SocialLinks />
     <h2>Summary</h2>
     <p>
