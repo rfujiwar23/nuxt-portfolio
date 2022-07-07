@@ -1,5 +1,5 @@
 ---
-title: KAMISMA Commercial 15"
+title: Commercial 15"
 description: Commercial
 img: kamisma-cm.png
 video: https://www.youtube.com/watch?v=iXx3bPMtgT0
