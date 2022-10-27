@@ -3,21 +3,11 @@
     <SocialLinks />
     <h2>Summary</h2>
     <p>
-      I've always wanted to create a web service that allows online streaming to
-      happen, and I took some classes in college on web design, mostly HTML/CSS
-      basics. However, I eventually learned HTML/CSS, jQuery/JavaScript on my
-      own in creating e-commerce and corporate page designs, getting a
-      certificate in Web Designs back in 2014. <br />
-      Though I made websites, I eventually figured that I couldn't create some
-      websites, as they were really web-apps, as my initial attempts at Vue.js
-      and React.js were almost complete disaster. I attended
-      <a href="https://www.lewagon.com/tokyo">Le Wagon Tokyo</a> to educate
-      myself on full-stack development, learning about HTML/CSS, Bootstrap,
-      JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating
-      AirBnb clone, and also creating an English-Speaking App with the team.  I'm most comfortable with 
-      front-end development through my prior experience as a web designer, but my role in my current job calls upon to do back-end as well, as I am proficient
-      with php and Rails as a back-end.  <br>
-      <strong style="text-decoration:underline;">Got a mix of front-end development of apps and also web designs, most of those that are up in business, and have created since 2019. I've got more created prior to 2019, would share some of those privately.</strong>  
+      Prior to 2019, I was a web designer, I eventually figured that I couldn't create some websites, as they were really web-apps, as my initial attempts at Vue.js and React.js were almost complete disaster. I attended Le Wagon Tokyo to educate myself on full-stack development, learning about HTML/CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating AirBnb clone, and also creating an English-Speaking App with the team. I'm most comfortable with front-end development through my prior experience as a web designer.  I am a UIUX designer more, but my current job has called me to be a front-developer as well.  With programming, I am most comfortable with Vue.js/Nuxt.js, and Rails and PHP.  With my experience in web designs, I love using SASS and Tailwind.
+<br><br>
+WebデザインとAdobe認定の資格を所有しており、フロントエンド開発もできるUIUXデザイナーとして、日々仕事に向き合っている（RailsとPHPのバックエンドでの開発も可能）
+独学でWebデザインの勉強、Web能力検定の資格を得て、後にもともと強みであったAdobe等での制作を活かし、Adobe認定の資格も得る。
+Le Wagon Tokyoでフルスタック開発を勉強することでアプリでもデザインするUIUXデザイナーとして働き、インテンスではUIUXデザイナーとして働きながら、フロントエンド開発にも携わる。Vue.js (Nuxt.js), Rails, PHPが好きなプログラミング言語で、Webデザイン歴もあることで、SASSとtailwindを利用して制作するのも好む。
 
     </p>
     <h2 class="mt-5">Skills</h2>
@@ -30,10 +20,17 @@
       </ul>
     </div>
     <p>Image Editing/Prototype</p>
-    <div class="list">
+    <!-- <div class="list">
       <ul>
         <li v-for="type in prototypes" :key="type.id">
           <i :class="type.text" class="colored"></i>
+        </li>
+      </ul>
+    </div> -->
+    <div class="list">
+      <ul>
+        <li v-for="item in prototypes" :key="item.id">
+          <i :class="item.text" class="colored"></i>
         </li>
       </ul>
     </div>
