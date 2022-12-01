@@ -1,7 +1,8 @@
 ---
 title: tokio.tokyo
 description: Web Site
-bodyText: <strong>Description:</strong><br>Creating the Wordpress theme from scratch, as I have been relied upon on my backend skills from php and Ruby on Rails, as I never have created a WordPress theme before.  
+bodyText: <strong>Description:</strong><br>Creating the Wordpress theme from scratch, as I have been relied upon on my backend skills from php and Ruby on Rails, as I never have created a WordPress theme before. <br>
+It is a combination of two websites, just a simple landing page, and two, a site to search salons in using particular brands, which was originally built with Adobe Muse, which now became virtually uneditable after it discontinued. It was very lengthy, with too many use of text, especially on the mobile device for the user to be purchasing the hair care brand.  One thing that the product has so much value is that it is used by a lot of famous and first-class stylists in Japan, and also abroad, from salons in France, Morocco, Italy, Spain, Mexico, etc.  Though we are creating one for the international site currently, we’ve finished up for the Japanese customers.  We wanted to keep the scroll to about 10 per each, and keep it clean and concise, and also be able to access the e-commerce site and the salon searching website with ease.   By having a sticky nav-bar, the user would be able to navigate to the salon search with ease.  And most of all, creating this website with PHP programming and also WordPress allows the sales representative to put in the salon information in the “easiest” dashboard, and not needing to teach them how to use a dashboard of a completely developed app, so it would be easy for them to edit the salon informations and the website details, when everything was done by the engineering staff prior.
 img: tokio-tokyo.png
 alt: TTL
 url: https://tokio.tokyo
