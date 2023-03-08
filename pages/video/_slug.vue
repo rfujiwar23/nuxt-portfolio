@@ -3,22 +3,7 @@
     <Navbar />
     
     <div class="sm:m-0 md:m-6" style="padding-bottom:10vh;">
-        <!-- <nav>
-        <ul>
-            <li v-for="link of article.toc" :key="link.id">
-            <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
-            </li>
-        </ul>
-        </nav> -->
-        <!-- <pre>{{article}}</pre> -->
-        <!-- <pre>{{listUp}}</pre> -->
-        <!-- <ul>
-          <li v-for="list of listUp" :key="list.slug">
-        <NuxtLink :to="{ name: 'video', params: { slug: list.slug } }">
-            {{ list.title }}
-        </NuxtLink>
-      </li>
-        </ul> -->
+        
       
         <div class="pt-5 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./"><span>&#8592;</span> Back</NuxtLink ></div>
       

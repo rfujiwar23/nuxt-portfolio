@@ -129,7 +129,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://res.cloudinary.com/rfujiwar23/image/upload/v1654312548/portfolio/tokyo1.png) no-repeat;
+  background: rgb(21,43,68);
+background: linear-gradient(180deg, rgba(21,43,68,1) 0%, rgba(34,82,93,0.6) 100%);
+  /* background: url(https://res.cloudinary.com/rfujiwar23/image/upload/v1654312548/portfolio/tokyo1.png) no-repeat; */
   background-position: center;
   background-size: cover;
 }
