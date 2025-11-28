@@ -5,7 +5,7 @@
     <p>
       Prior to 2019, I was a web designer, I eventually figured that I couldn't create some websites, as they were really web-apps, as my initial attempts at Vue.js and React.js were almost complete disaster. I attended Le Wagon Tokyo to educate myself on full-stack development, learning about HTML/CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails, and creating AirBnb clone, and also creating an English-Speaking App with the team. I'm most comfortable with front-end development through my prior experience as a web designer.  I am a UIUX designer more, but my current job has called me to be a front-developer as well.  With programming, I am most comfortable with Vue.js/Nuxt.js, and Rails and PHP.  With my experience in web designs, I love using SASS and Tailwind.
 <br><br>
-WebデザインとAdobe認定の資格を所有しており、フロントエンド開発もできるUIUXデザイナーとして、日々仕事に向き合っている（RailsとPHPのバックエンドでの開発も可能）
+Webデザインの資格を所有しており、フロントエンド開発もできるUIUXデザイナーとして、日々仕事に向き合っている（RailsとPHPのバックエンドでの開発も可能）
 独学でWebデザインの勉強、Web能力検定の資格を得て、後にもともと強みであったAdobe等での制作を活かし、Adobe認定の資格も得る。
 Le Wagon Tokyoでフルスタック開発を勉強することでアプリでもデザインするUIUXデザイナーとして働き、インテンスではUIUXデザイナーとして働きながら、フロントエンド開発にも携わる。Vue.js (Nuxt.js), Rails, PHPが好きなプログラミング言語で、Webデザイン歴もあることで、SASSとtailwindを利用して制作するのも好む。
 
