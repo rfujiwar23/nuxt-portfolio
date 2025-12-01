@@ -64,7 +64,7 @@ export default {
       typeArray: [
         "a Front-End Developer",
         "an UIUX Designer",
-        "a Product Manager"
+        "a Product Manager",
         "obsessed with Vue/Nuxt",
         "a Video Creator",
         "a JP/ENG Bilingual",
