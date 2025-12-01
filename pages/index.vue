@@ -68,7 +68,7 @@ export default {
         "obsessed with Vue/Nuxt",
         "a Video Creator",
         "a JP/ENG Bilingual",
-        "influenced from jazz".
+        "influenced from jazz",
         "like a Swiss Army Knife"
       ],
       typingSpeed: 200,
