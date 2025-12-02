@@ -1,0 +1,8 @@
+---
+title: KAMISMA homepage
+description: KAMI CHARISMA Website
+bodyText: <strong>ABOUT</strong><br>As of the end of 2025 (2-3 years after I left the company), KAMI CHARISMA is an ongoing yearly event, to recognize the stylists and the salons for their contribution, which is honored by former Prime Minister of Japan, Taro Aso.  I created this site based from the files in Google Cloud Drive, strictly HTML/CSS and JavaScript. I created the design which was reviewed by the company sales team, as well as the KAMISMA team in which included some of the government leaders (whom I didn’t have direct contact). I create the page design through Adobe XD, and created the page from there.<br><br><strong>【日本語】</strong><br>2025年末時点（私が退職してから2〜3年後）にてこの項目を制作しましたが、KAMI CHARISMA は継続的に開催されている年間イベントであり、スタイリストやサロンの功績を称える場として、元内閣総理大臣の麻生太郎氏によって12月の第２火曜日に表彰が行われています。(youTubeでも配信されています)。<br>私はこのサイトを、元々共有されたGoogle Cloud Drive 内のファイル、HTML/CSS および JavaScriptをもとに、構築しました。デザインは私が作成し、社内の営業チームおよび KAMISMA実行委員会（政府関係者も含まれるが、直接のやり取りはなし）によるレビューを経て制作しました。Adobe XD でページデザインを作成し、それをもとに実装を行いました。<br><br><strong>The Process/Issues</strong>One of the issues I ran into is more on the technical side, as downloading the files from Google Cloud Storage to desktop and re-uploading it to the console was a hassle. Through many trials and error, and working almost by myself (just myself and another web developer - freelancer - at the time), I also learned about Google Cloud CLI.<br><br><strong>【日本語】</strong><br>デザインはほぼスムーズに進んでいたところ、問題点はなかったが、技術で直面した課題として、Google Cloud Storage からローカルへのファイルダウンロードと、コンソールへの再アップロードという手作業の煩雑さがありました。数多くの試行錯誤を重ね、当時はほぼ私一人（フリーランスの Web デベロッパーとの2名体制）で進めていたこともあり、Google Cloud CLI についても深く学ぶきっかけとなりました。
+img: kami-charisma.png
+alt: KAMI CHARISMA
+url: https://www.kami-charisma.com
+---
