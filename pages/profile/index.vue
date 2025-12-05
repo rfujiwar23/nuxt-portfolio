@@ -9,16 +9,15 @@
             </div>
             <h6 class="py-3 px-3 text-sm font-bold italic text-sm"><span class="underline">Bachelor of Arts:</span> Indiana University '07</h6>
             <p class="py-2 px-3">
-              I am JP/ENG bilingual, based in Tokyo, Japan. <br>
-              I've initially started my career in the broadcast industry, and I attribute that part of my career very important in my path to becoming a web designer first, and then 
-              becoming a front-end developer, though I am proficient in back-end (php and Ruby on Rails) to some extent. 
+              I am a Japanese–English bilingual UI/UX designer (and front-end developer). My career began in the broadcast industry, an experience that shaped how I think about storytelling, visuals, and user engagement. That foundation naturally guided me into web design and later front-end development, where I also gained practical back-end experience with PHP and Ruby on Rails.
               <br>
-              I consider myself more hands-on UIUX designer because I love designing so much.  But attending Le Wagon Coding Bootcamp and my experience in directing and producing home-shopping videos, I
-              developed entrepreneurial skills.  
+              While I enjoy development, I consider myself first and foremost a hands-on UIUX designer/developer. I’m passionate about turning ideas into tangible products—creating prototypes, building wireframes, and coding websites and apps that solve real user problems. 
             </p>
-            <p class="py-2 px-3">I attribute a lot of my interests to piano, and constantly have my eyes opened for new trends in technology, and why I find myself creating
-                websites, videos, and big band charts with my MacBook a good chunk of my time.</p>
-
+            <p class="py-2 px-3">My creativity is rooted in music. Having played piano since childhood and composed since junior high, I’ve carried that same mindset into my professional work: understanding rhythm, structure, and emotion, and translating them into digital experiences. I’m constantly exploring new technologies and trends, always looking for ways to create something meaningful and new.</p>
+          <hr>
+          <p class="py-2 px-3">日英バイリンガルのUI/UXデザイナー (兼フロントエンド開発者)。キャリアの出発点である放送業界で培ったストーリーテリングやビジュアル表現の感覚が、Webデザインとフロントエンド開発へ進む基盤となった。PHPやRuby on Railsによるバックエンド開発にも一定の経験を持つ。</p>
+          <p class="py-2 px-3">UI/UXデザインにもっとも強い情熱があり、プロトタイプやワイヤーフレームの制作、Webサイト・アプリの構築といった“手を動かして形にする”プロセスを得意としている。</p>
+          <p class="py-2 px-3">創造性の源は幼少期から続けているピアノと、中学時代からの作曲経験にあり、その感性をデジタルプロダクトづくりにも活かしている。常に新しい技術やトレンドに目を向け、ユーザーに価値ある体験を届けることを目指している。</p>
                 <div class="pt-3 mb-4 px-3 text-sm text-pink-600 underline"><NuxtLink to="./"><span>&#8592;</span> Back</NuxtLink ></div>
         </div>
     </div>
